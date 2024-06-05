@@ -92,9 +92,6 @@ else{
 console.log("upper:",v);
 
 
-program to check if a number is prime or not
-
-take input from the user
 
 let p =prompt("enter the no");
 let f = 1;
