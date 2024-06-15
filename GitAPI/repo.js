@@ -1,4 +1,3 @@
-
 const APIURL = "https://api.github.com/users/";
 const main = document.querySelector("main");
 const searchBox = document.querySelector("#search")
@@ -52,7 +51,7 @@ const formSubmit = () =>{
 
     if(searchBox.value != ""){
         getUser(searchBox.value);
-        searchBox.value = ""
+        searchBox.value = " "
 
     }
     return false;

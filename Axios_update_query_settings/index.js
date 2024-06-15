@@ -1,4 +1,5 @@
-let u = "http://universities.hipolabs.com/search?name=";
+ let u = "http://universities.hipolabs.com/search?name=";
+//let u =  "https://api.github.com/users/";
 let Button = document.querySelector("#nik");
 
 Button.addEventListener("click",async ()=>{

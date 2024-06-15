@@ -11,7 +11,7 @@ btn.addEventListener("click",function(){
     delbtn.innerText="delete";
     item.appendChild(delbtn);
     delbtn.classList.add("delete");
-    inp.value="";
+    // inp.value="";
    
 
 });
