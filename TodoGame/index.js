@@ -21,4 +21,4 @@ ul.addEventListener("click",function (event){
     listItem.remove();
     console.log("deleted");
    }
-})
+});
