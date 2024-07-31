@@ -1802,7 +1802,7 @@ console.log(arr.sort());
 
 let arr1 = ["nik","abc","aa","ggth","pg"];
 console.log(arr1.sort());
-
+//                                IIFE (Immediately Invoked Function Expression):
 let dis =(function disply(x){
     return function(){
         return x+=1;
