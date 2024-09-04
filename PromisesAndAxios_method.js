@@ -16,6 +16,10 @@ Promise.all([promiseOne,promiseTwo,promiseThree]).then(([one,two,three])=>{
   console.log(one,two,three);
 });
 
+// Promise.all([promiseOne,promiseTwo,promiseThree]).then((value)=>{
+//   console.log(value);
+// });
+
 //Promises allSettled
 let promise1 = new Promise(resolve=>{
   let one = axios.get("https://api.github.com/users/MaksymRudnyi");
@@ -23,11 +27,11 @@ let promise1 = new Promise(resolve=>{
 });
 
 let promise2 = new Promise(resolve=>{
-  console.log("ok");
+  console.log("ok nikeeta");
 });
 
 let promise3 = new Promise(resolve=>{
-  console.log("ok");
+  console.log("ok sakshi");
 });
 
 Promise.allSettled([promise1,promise2,promise3]).then(([one,two,three])=>{
@@ -100,7 +104,9 @@ function rejected(result) {
   console.error(result);
 }
 
-Promise.reject("fail").then(resolved, rejected);
+Promise.reject("fail").then((resolved, rejected)=>{
+  console.log("reject",rejected);
+});
 // Expected output: Error: fail
 
 //resolve 
