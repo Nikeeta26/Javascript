@@ -89,6 +89,7 @@ console.log(ul.children[1].nextElementSibling);
 
 let im=document.querySelector("img")
 im.previousElementSibling.style.color="yellow";
+
 /********************adding elemntes***************88 */
 let add=document.createElement('p');
 console.log(add.innerText="hi i am nikeeta kaudare...............");

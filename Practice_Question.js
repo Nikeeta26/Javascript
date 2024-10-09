@@ -83,6 +83,7 @@ function createIncrement() {
     return ++count;
   };
 }
+
 const increment = createIncrement();
 console.log(increment()); // Output: 1
 console.log(increment()); // Output: 2
